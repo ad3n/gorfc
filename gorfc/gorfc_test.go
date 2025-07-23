@@ -3,13 +3,14 @@ package gorfc
 import (
 	"context"
 	"fmt"
-	"github.com/stretchr/testify/require"
 	"os"
 	"reflect"
 	"strconv"
 	"strings"
 	"testing"
 	"time"
+
+	"github.com/stretchr/testify/require"
 
 	"github.com/stretchr/testify/assert"
 

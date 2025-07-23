@@ -18,17 +18,12 @@ package gorfc
 #cgo windows CFLAGS: -fno-strict-aliasing -fno-omit-frame-pointer -fexceptions -funsigned-char
 #cgo windows CFLAGS: -Wall -Wno-uninitialized -Wno-long-long
 #cgo windows CFLAGS: -Wcast-align -Wunused-variable
-// todo -EHs ?
-// todo -Gy ? -ffunction-sections -fdata-sections
-// todo MD ? -lpthread -lm
-// todo -nologo -W3 -Z7  -GL -O2 -Oy- /we4552 /we4700 /we4789
 
 #cgo windows CFLAGS: -IC:/Tools/nwrfcsdk/include/
 #cgo windows LDFLAGS: -LC:/Tools/nwrfcsdk/lib/ -lsapnwrfc -llibsapucum
 
 #cgo windows LDFLAGS: -O2 -g -pthread -pie -fPIE
 #cgo windows LDFLAGS: -OPT:REF -LTCG
-// todo -NXCOMPAT -STACK:0x2000000 -SWAPRUN:NET -DEBUG -DEBUGTYPE:CV,FIXUP -MACHINE:amd64 -nologo
 
 // ~~~~ linux ~~~~ //
 

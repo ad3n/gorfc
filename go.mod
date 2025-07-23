@@ -1,8 +1,11 @@
-module github.com/sap/gorfc
+module github.com/ad3n/gorfc
 
 go 1.17
 
-require github.com/stretchr/testify v1.7.0
+require (
+	github.com/sap/gorfc v0.1.1
+	github.com/stretchr/testify v1.7.0
+)
 
 require (
 	github.com/davecgh/go-spew v1.1.0 // indirect
