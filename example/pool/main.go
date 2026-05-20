@@ -14,7 +14,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/cjordaoc/gorfc/nwrfc"
+	"github.com/ad3n/gorfc/nwrfc"
 )
 
 func main() {

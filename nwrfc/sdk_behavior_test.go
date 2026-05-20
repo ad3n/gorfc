@@ -23,7 +23,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/cjordaoc/gorfc/nwrfc"
+	"github.com/ad3n/gorfc/nwrfc"
 )
 
 // TestSDKVersion_NotZero confirms the loaded SDK is reporting a

@@ -6,13 +6,13 @@
 The community revival has the same purpose as the archived
 upstream — a Go binding over the SAP NetWeaver RFC SDK — but
 the public API is rewritten under the new module path
-`github.com/cjordaoc/gorfc/nwrfc`. This document is the
+`github.com/ad3n/gorfc/nwrfc`. This document is the
 mechanical port guide.
 
 ## TL;DR
 
 - Change the import: `github.com/sap/gorfc/gorfc` →
-  `github.com/cjordaoc/gorfc/nwrfc`.
+  `github.com/ad3n/gorfc/nwrfc`.
 - Replace `Connection` / `ConnectionFromParams` /
   `ConnectionFromDest` with `Conn` / `Open` / `OpenDest`.
 - Pass a `context.Context` as the first argument everywhere.
@@ -46,7 +46,7 @@ defer c.Close()
 import (
     "context"
     "time"
-    "github.com/cjordaoc/gorfc/nwrfc"
+    "github.com/ad3n/gorfc/nwrfc"
 )
 
 ctx, cancel := context.WithTimeout(context.Background(), 10*time.Second)

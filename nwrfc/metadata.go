@@ -6,7 +6,7 @@ package nwrfc
 import (
 	"context"
 
-	"github.com/cjordaoc/gorfc/internal/backend"
+	"github.com/ad3n/gorfc/internal/backend"
 )
 
 // Describe returns the metadata descriptor for the named RFC

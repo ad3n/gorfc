@@ -58,7 +58,7 @@ Riscos não-negociáveis tratados desde T0:
 ### 2.1 Layout de módulo
 
 ```
-github.com/cjordaoc/gorfc                    ← module root
+github.com/ad3n/gorfc                    ← module root
 │
 ├── nwrfc/                                   ← API pública pure-Go (não importa "C")
 │   ├── nwrfc.go                             ← surface: Conn, Pool, ABAP types
@@ -518,7 +518,7 @@ Plataformas suportadas declaradas:
 ### 4.16 Toolchain directive
 
 ```
-module github.com/cjordaoc/gorfc
+module github.com/ad3n/gorfc
 
 go 1.23
 
@@ -546,7 +546,7 @@ Compatibilidade: a interface pública é Go 1.23-compatível (compila); o toolch
 ### 5.1 Conexão direta
 
 ```go
-import "github.com/cjordaoc/gorfc/nwrfc"
+import "github.com/ad3n/gorfc/nwrfc"
 
 ctx, cancel := context.WithTimeout(context.Background(), 10*time.Second)
 defer cancel()
@@ -680,7 +680,7 @@ res, err := conn.CallMap(ctx, "BAPI_X", in,
 ### 5.10 BAPIRET2 helper
 
 ```go
-import "github.com/cjordaoc/gorfc/nwrfcparam"
+import "github.com/ad3n/gorfc/nwrfcparam"
 
 type Out struct {
     Address ADDRESS3              `rfc:"ADDRESS"`
@@ -780,7 +780,7 @@ fmt.Println(stats.Calls, stats.SentBytes, stats.ApplicationTime)
 ### 5.16 OpenTelemetry opt-in
 
 ```go
-import "github.com/cjordaoc/gorfc/nwrfcotel"
+import "github.com/ad3n/gorfc/nwrfcotel"
 
 tp := otel.GetTracerProvider()
 mp := otel.GetMeterProvider()
@@ -795,8 +795,8 @@ conn, err := nwrfc.Open(ctx, params,
 
 ```go
 import (
-    "github.com/cjordaoc/gorfc/nwrfc"
-    "github.com/cjordaoc/gorfc/nwrfcmock"
+    "github.com/ad3n/gorfc/nwrfc"
+    "github.com/ad3n/gorfc/nwrfcmock"
 )
 
 func TestUserService(t *testing.T) {

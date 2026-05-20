@@ -14,7 +14,7 @@ import (
 	"context"
 	"sync"
 
-	"github.com/cjordaoc/gorfc/internal/backend"
+	"github.com/ad3n/gorfc/internal/backend"
 )
 
 // describeFunction implements [backend.Backend.Describe] using

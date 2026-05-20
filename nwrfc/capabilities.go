@@ -4,7 +4,7 @@
 package nwrfc
 
 import (
-	"github.com/cjordaoc/gorfc/internal/backend"
+	"github.com/ad3n/gorfc/internal/backend"
 )
 
 // enforceCapabilities is the hardlock for capability-gated

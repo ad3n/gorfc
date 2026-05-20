@@ -15,7 +15,7 @@ import (
 	"sync/atomic"
 	"unsafe"
 
-	"github.com/cjordaoc/gorfc/internal/backend"
+	"github.com/ad3n/gorfc/internal/backend"
 )
 
 // connState atomic values.

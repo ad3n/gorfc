@@ -11,7 +11,7 @@ import (
 	"sync"
 	"sync/atomic"
 
-	"github.com/cjordaoc/gorfc/internal/backend"
+	"github.com/ad3n/gorfc/internal/backend"
 )
 
 // Conn is a single SAP RFC client connection. Construct via

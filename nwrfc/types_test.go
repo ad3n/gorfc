@@ -6,9 +6,9 @@ package nwrfc_test
 import (
 	"testing"
 
-	"github.com/cjordaoc/gorfc/internal/bcd"
-	"github.com/cjordaoc/gorfc/internal/timeext"
-	"github.com/cjordaoc/gorfc/nwrfc"
+	"github.com/ad3n/gorfc/internal/bcd"
+	"github.com/ad3n/gorfc/internal/timeext"
+	"github.com/ad3n/gorfc/nwrfc"
 )
 
 // TestTypeAliases_DateMethodsReachable: methods declared on the

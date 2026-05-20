@@ -11,8 +11,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/cjordaoc/gorfc/internal/backend"
-	"github.com/cjordaoc/gorfc/nwrfc"
+	"github.com/ad3n/gorfc/internal/backend"
+	"github.com/ad3n/gorfc/nwrfc"
 )
 
 // blockingBackend simulates an SDK backend whose operations

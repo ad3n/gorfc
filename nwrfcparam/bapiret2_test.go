@@ -10,8 +10,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/cjordaoc/gorfc/nwrfc"
-	"github.com/cjordaoc/gorfc/nwrfcparam"
+	"github.com/ad3n/gorfc/nwrfc"
+	"github.com/ad3n/gorfc/nwrfcparam"
 )
 
 func TestBAPIReturn_TypeClassification(t *testing.T) {

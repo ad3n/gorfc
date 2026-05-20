@@ -11,7 +11,7 @@ package sdkbackend
 import "C"
 
 import (
-	"github.com/cjordaoc/gorfc/internal/backend"
+	"github.com/ad3n/gorfc/internal/backend"
 )
 
 // Version returns the SAP NWRFC SDK version reported by

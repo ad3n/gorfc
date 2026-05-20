@@ -9,4 +9,4 @@ package nwrfc
 // its init() function (which registers itself with the
 // backend.Default registry). Build tags ensure exactly one
 // backend registers per build.
-import _ "github.com/cjordaoc/gorfc/internal/nosdkbackend"
+import _ "github.com/ad3n/gorfc/internal/nosdkbackend"

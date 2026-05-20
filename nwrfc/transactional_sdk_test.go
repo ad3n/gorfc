@@ -18,8 +18,8 @@ import (
 	"testing"
 	"unicode"
 
-	"github.com/cjordaoc/gorfc/internal/backend"
-	"github.com/cjordaoc/gorfc/nwrfc"
+	"github.com/ad3n/gorfc/internal/backend"
+	"github.com/ad3n/gorfc/nwrfc"
 )
 
 // TestSDKBackend_SatisfiesTransactionalInterface confirms the

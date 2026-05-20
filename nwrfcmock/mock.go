@@ -37,7 +37,7 @@ import (
 	"sync"
 	"sync/atomic"
 
-	"github.com/cjordaoc/gorfc/internal/backend"
+	"github.com/ad3n/gorfc/internal/backend"
 )
 
 // CallParams is the public mock-side alias for dynamic RFC parameters.

@@ -15,7 +15,7 @@ import (
 	"log/slog"
 	"strings"
 
-	"github.com/cjordaoc/gorfc/nwrfc"
+	"github.com/ad3n/gorfc/nwrfc"
 )
 
 // BAPIReturn is the Go shape of a single BAPIRET2 row. Field

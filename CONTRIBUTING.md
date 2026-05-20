@@ -96,7 +96,7 @@ self-hosted runner environment.
    proxy:
 
    ```bash
-   GOFLAGS=-mod=mod go install github.com/cjordaoc/gorfc/cmd/nwrfc@v0.2.0
+   GOFLAGS=-mod=mod go install github.com/ad3n/gorfc/cmd/nwrfc@v0.2.0
    ```
 
    The first `go install` against a fresh tag may take up to a

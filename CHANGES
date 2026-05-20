@@ -601,7 +601,7 @@ expose. The SDK is in hand; the system is the gate.
 
 ### Added — Tier 1 (core revival)
 
-- New module path `github.com/cjordaoc/gorfc`. go.mod bumped
+- New module path `github.com/ad3n/gorfc`. go.mod bumped
   to `go 1.23 + toolchain go1.25.0`. testify v1.10.0.
 - New internal/backend, internal/sdkbackend (cgo SAP NWRFC
   SDK), internal/nosdkbackend, internal/ucs2,

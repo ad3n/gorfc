@@ -10,9 +10,9 @@ import (
 	"io"
 	"testing"
 
-	"github.com/cjordaoc/gorfc/internal/backend"
-	"github.com/cjordaoc/gorfc/nwrfc"
-	"github.com/cjordaoc/gorfc/nwrfcmock"
+	"github.com/ad3n/gorfc/internal/backend"
+	"github.com/ad3n/gorfc/nwrfc"
+	"github.com/ad3n/gorfc/nwrfcmock"
 )
 
 const benchmarkLargeTableRows = 1000

@@ -38,7 +38,7 @@ timestamp_utc: "2026-05-08T14:30:12Z"
 
 # Library + SDK identity.
 library:
-  module: github.com/cjordaoc/gorfc
+  module: github.com/ad3n/gorfc
   version: v0.2.0-rc1
   commit: 7b2f1c0e
 sdk_version: "7.50 PL18"
@@ -138,7 +138,7 @@ required field invalidates the file.
 | `schema_version` | int | Currently `1`. Bump when this document changes shape. |
 | `test_scenario` | string | Stable identifier; safe in filenames. |
 | `timestamp_utc` | RFC 3339 / ISO 8601 | UTC, with `Z` suffix. |
-| `library.module` | string | Always `github.com/cjordaoc/gorfc`. |
+| `library.module` | string | Always `github.com/ad3n/gorfc`. |
 | `library.version` | string | The library tag or `vX.Y.Z-rcN`. |
 | `library.commit` | string | Short git SHA (>= 7 chars). |
 | `sdk_version` | string | "Major.Minor PL<n>" form. |

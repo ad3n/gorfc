@@ -8,8 +8,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/cjordaoc/gorfc/internal/backend"
-	"github.com/cjordaoc/gorfc/nwrfc"
+	"github.com/ad3n/gorfc/internal/backend"
+	"github.com/ad3n/gorfc/nwrfc"
 )
 
 func TestPreflightReportIncludesSDKPackagingChecks(t *testing.T) {

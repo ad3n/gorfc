@@ -14,7 +14,7 @@
 
 This is the living work plan for the `nexus-spec` adapter
 integration that consumes
-`github.com/cjordaoc/gorfc/nwrfc` from a downstream
+`github.com/ad3n/gorfc/nwrfc` from a downstream
 `internal/sap/rfc/` package, and the corresponding hardening of
 the `nwrfc` public API surface for production VDI deployment on
 Windows and Linux.
@@ -101,7 +101,7 @@ The downstream `nexus-spec` consumer needs:
 ## 2. Architecture (target shape; some pieces still planned)
 
 ```
-github.com/cjordaoc/gorfc
+github.com/ad3n/gorfc
 ├── nwrfc/                      # public API (typed)
 │   ├── conn.go                 # Conn lifecycle + Cancel        (P1.1, planned)
 │   ├── errors.go               # core taxonomy

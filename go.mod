@@ -6,7 +6,7 @@
 // (`compat/gorfc`) lands in T1.14 to keep upstream callers building
 // for one minor release; see docs/PORTING_STRATEGY.md.
 
-module github.com/cjordaoc/gorfc
+module github.com/ad3n/gorfc
 
 // Go 1.25 is required for the testing/synctest API used by the
 // cancel/timeout tests under nwrfc/cancel_synctest_test.go. The

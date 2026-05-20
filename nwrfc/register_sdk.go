@@ -8,4 +8,4 @@ package nwrfc
 // Importing the cgo SDK backend for the side effect of its
 // init() registration. Build tags ensure exactly one backend
 // is linked per build.
-import _ "github.com/cjordaoc/gorfc/internal/sdkbackend"
+import _ "github.com/ad3n/gorfc/internal/sdkbackend"

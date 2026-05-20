@@ -10,7 +10,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/cjordaoc/gorfc/internal/backend"
+	"github.com/ad3n/gorfc/internal/backend"
 )
 
 // fakeSDKError is a small helper to feed sdkErrorToTyped without

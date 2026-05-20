@@ -11,8 +11,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/cjordaoc/gorfc/nwrfc"
-	"github.com/cjordaoc/gorfc/nwrfcotel"
+	"github.com/ad3n/gorfc/nwrfc"
+	"github.com/ad3n/gorfc/nwrfcotel"
 )
 
 func TestRedactHandler_StripsSensitiveAttrs(t *testing.T) {

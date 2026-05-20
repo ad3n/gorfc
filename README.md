@@ -38,7 +38,7 @@ a starting point.
 The original upstream is no longer maintained
 ([deprecation notice](https://github.com/SAP/gorfc/issues/42)).
 This fork picks up under a new module path,
-`github.com/cjordaoc/gorfc`, and ships a redesigned typed API
+`github.com/ad3n/gorfc`, and ships a redesigned typed API
 under `nwrfc/` while preserving the legacy `gorfc/` package
 verbatim for callers who need a one-release-cycle migration
 window.
@@ -140,7 +140,7 @@ for the license boundary.
 ## Installation
 
 ```bash
-go get github.com/cjordaoc/gorfc/nwrfc@v0.2.0
+go get github.com/ad3n/gorfc/nwrfc@v0.2.0
 ```
 
 For the build configuration (where to put the SDK; what to
@@ -175,7 +175,7 @@ import (
     "os"
     "time"
 
-    "github.com/cjordaoc/gorfc/nwrfc"
+    "github.com/ad3n/gorfc/nwrfc"
 )
 
 func main() {

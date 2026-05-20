@@ -8,8 +8,8 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/cjordaoc/gorfc/internal/backend"
-	"github.com/cjordaoc/gorfc/nwrfc"
+	"github.com/ad3n/gorfc/internal/backend"
+	"github.com/ad3n/gorfc/nwrfc"
 )
 
 // echoBackend records the inputs to Invoke and returns a

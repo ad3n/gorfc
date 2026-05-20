@@ -13,9 +13,9 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/cjordaoc/gorfc/internal/backend"
-	"github.com/cjordaoc/gorfc/nwrfc"
-	"github.com/cjordaoc/gorfc/nwrfcmock"
+	"github.com/ad3n/gorfc/internal/backend"
+	"github.com/ad3n/gorfc/nwrfc"
+	"github.com/ad3n/gorfc/nwrfcmock"
 )
 
 // sourceNoteTestDescriptor is a STRUCTURE-bearing descriptor used by
@@ -175,7 +175,7 @@ func TestGeneratedPackageCompilesAndRunsSDKFreeTest(t *testing.T) {
 	}
 
 	dir := t.TempDir()
-	if err := os.WriteFile(filepath.Join(dir, "go.mod"), []byte("module generated.test\n\ngo 1.23\n\nrequire github.com/cjordaoc/gorfc v0.0.0\n\nreplace github.com/cjordaoc/gorfc => "+repoRoot+"\n"), 0o644); err != nil {
+	if err := os.WriteFile(filepath.Join(dir, "go.mod"), []byte("module generated.test\n\ngo 1.23\n\nrequire github.com/ad3n/gorfc v0.0.0\n\nreplace github.com/ad3n/gorfc => "+repoRoot+"\n"), 0o644); err != nil {
 		t.Fatalf("write go.mod: %v", err)
 	}
 	if err := os.WriteFile(filepath.Join(dir, "stfc_connection.go"), files.Source, 0o644); err != nil {
@@ -186,7 +186,7 @@ func TestGeneratedPackageCompilesAndRunsSDKFreeTest(t *testing.T) {
 	}
 
 	// Resolve the generated module's dependency graph: the bare
-	// go.mod above only names github.com/cjordaoc/gorfc, but the
+	// go.mod above only names github.com/ad3n/gorfc, but the
 	// generated test transitively needs that module's own
 	// requires recorded too.
 	tidy := exec.Command("go", "mod", "tidy")
@@ -284,7 +284,7 @@ func TestGenerateFast_Compiles(t *testing.T) {
 	}
 
 	dir := t.TempDir()
-	if err := os.WriteFile(filepath.Join(dir, "go.mod"), []byte("module generated.fast.test\n\ngo 1.23\n\nrequire github.com/cjordaoc/gorfc v0.0.0\n\nreplace github.com/cjordaoc/gorfc => "+repoRoot+"\n"), 0o644); err != nil {
+	if err := os.WriteFile(filepath.Join(dir, "go.mod"), []byte("module generated.fast.test\n\ngo 1.23\n\nrequire github.com/ad3n/gorfc v0.0.0\n\nreplace github.com/ad3n/gorfc => "+repoRoot+"\n"), 0o644); err != nil {
 		t.Fatalf("write go.mod: %v", err)
 	}
 	if err := os.WriteFile(filepath.Join(dir, "generated.go"), files.Source, 0o644); err != nil {
@@ -295,7 +295,7 @@ func TestGenerateFast_Compiles(t *testing.T) {
 	}
 
 	// Resolve the generated module's transitive dependency graph;
-	// the bare go.mod above only names github.com/cjordaoc/gorfc.
+	// the bare go.mod above only names github.com/ad3n/gorfc.
 	tidy := exec.Command("go", "mod", "tidy")
 	tidy.Dir = dir
 	if out, err := tidy.CombinedOutput(); err != nil {

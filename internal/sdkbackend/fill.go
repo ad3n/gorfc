@@ -16,8 +16,8 @@ import (
 	"time"
 	"unsafe"
 
-	"github.com/cjordaoc/gorfc/internal/backend"
-	"github.com/cjordaoc/gorfc/internal/timeext"
+	"github.com/ad3n/gorfc/internal/backend"
+	"github.com/ad3n/gorfc/internal/timeext"
 )
 
 // fillFunctionParameters writes every key in the [backend.CallParams]

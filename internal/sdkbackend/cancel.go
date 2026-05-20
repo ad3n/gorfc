@@ -29,7 +29,7 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/cjordaoc/gorfc/internal/backend"
+	"github.com/ad3n/gorfc/internal/backend"
 )
 
 // withCancelWatcher arranges a goroutine that calls RfcCancel

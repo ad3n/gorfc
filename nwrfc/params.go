@@ -9,7 +9,7 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/cjordaoc/gorfc/internal/backend"
+	"github.com/ad3n/gorfc/internal/backend"
 )
 
 // Params describes a SAP RFC connection. It is the public,

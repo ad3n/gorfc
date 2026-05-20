@@ -8,7 +8,7 @@ import (
 	"errors"
 	"sync"
 
-	"github.com/cjordaoc/gorfc/internal/backend"
+	"github.com/ad3n/gorfc/internal/backend"
 )
 
 // Handler processes one inbound RFC call delivered to a

@@ -8,7 +8,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/cjordaoc/gorfc/internal/backend"
+	"github.com/ad3n/gorfc/internal/backend"
 )
 
 func TestParseDate_HappyPath(t *testing.T) {

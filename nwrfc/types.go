@@ -4,9 +4,9 @@
 package nwrfc
 
 import (
-	"github.com/cjordaoc/gorfc/internal/backend"
-	"github.com/cjordaoc/gorfc/internal/bcd"
-	"github.com/cjordaoc/gorfc/internal/timeext"
+	"github.com/ad3n/gorfc/internal/backend"
+	"github.com/ad3n/gorfc/internal/bcd"
+	"github.com/ad3n/gorfc/internal/timeext"
 )
 
 // Public re-exports of the ABAP scalar types the marshaling

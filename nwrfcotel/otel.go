@@ -29,8 +29,8 @@ import (
 	"log/slog"
 	"time"
 
-	"github.com/cjordaoc/gorfc/internal/backend"
-	"github.com/cjordaoc/gorfc/nwrfc"
+	"github.com/ad3n/gorfc/internal/backend"
+	"github.com/ad3n/gorfc/nwrfc"
 )
 
 // RedactHandler wraps a `slog.Handler` and strips attributes

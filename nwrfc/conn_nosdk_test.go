@@ -16,7 +16,7 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/cjordaoc/gorfc/nwrfc"
+	"github.com/ad3n/gorfc/nwrfc"
 )
 
 // TestOpen_NoSDK_SurfacesAsSDKUnavailable: against the no-SDK

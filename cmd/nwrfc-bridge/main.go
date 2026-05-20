@@ -28,9 +28,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/cjordaoc/gorfc/internal/backend"
-	"github.com/cjordaoc/gorfc/nwrfc"
-	"github.com/cjordaoc/gorfc/nwrfcotel"
+	"github.com/ad3n/gorfc/internal/backend"
+	"github.com/ad3n/gorfc/nwrfc"
+	"github.com/ad3n/gorfc/nwrfcotel"
 )
 
 func main() {

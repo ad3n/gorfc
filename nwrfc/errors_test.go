@@ -11,7 +11,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/cjordaoc/gorfc/internal/backend"
+	"github.com/ad3n/gorfc/internal/backend"
 )
 
 // TestErrors_IsCategorySentinels asserts that every concrete

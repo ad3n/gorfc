@@ -9,9 +9,9 @@ import (
 	"context"
 	"testing"
 
-	"github.com/cjordaoc/gorfc/nwrfc"
-	"github.com/cjordaoc/gorfc/nwrfcmock"
-	"github.com/cjordaoc/gorfc/nwrfcparam"
+	"github.com/ad3n/gorfc/nwrfc"
+	"github.com/ad3n/gorfc/nwrfcmock"
+	"github.com/ad3n/gorfc/nwrfcparam"
 )
 
 type userGetDetailIn struct {

@@ -49,8 +49,8 @@ import (
 	"time"
 	"unicode"
 
-	"github.com/cjordaoc/gorfc/internal/backend"
-	"github.com/cjordaoc/gorfc/nwrfc"
+	"github.com/ad3n/gorfc/internal/backend"
+	"github.com/ad3n/gorfc/nwrfc"
 )
 
 func main() {
@@ -273,7 +273,7 @@ package {{.Package}}
 import (
 	"context"
 
-	"github.com/cjordaoc/gorfc/nwrfc"
+	"github.com/ad3n/gorfc/nwrfc"
 )
 
 // InOut contains CHANGING parameters for {{.RFCName}}.
@@ -342,8 +342,8 @@ import (
 	"context"
 	"testing"
 
-	"github.com/cjordaoc/gorfc/nwrfc"
-	"github.com/cjordaoc/gorfc/nwrfcmock"
+	"github.com/ad3n/gorfc/nwrfc"
+	"github.com/ad3n/gorfc/nwrfcmock"
 )
 
 func TestGeneratedCall(t *testing.T) {
@@ -420,7 +420,7 @@ package {{.Package}}
 import (
 	"context"
 
-	"github.com/cjordaoc/gorfc/nwrfc"
+	"github.com/ad3n/gorfc/nwrfc"
 )
 
 // In contains the IMPORT and CHANGING parameters for {{.RFCName}}.
@@ -499,8 +499,8 @@ import (
 	"context"
 	"testing"
 
-	"github.com/cjordaoc/gorfc/nwrfc"
-	"github.com/cjordaoc/gorfc/nwrfcmock"
+	"github.com/ad3n/gorfc/nwrfc"
+	"github.com/ad3n/gorfc/nwrfcmock"
 )
 
 func TestGeneratedCallFast(t *testing.T) {

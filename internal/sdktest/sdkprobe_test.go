@@ -16,8 +16,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/cjordaoc/gorfc/internal/sdktest"
-	"github.com/cjordaoc/gorfc/internal/ucs2"
+	"github.com/ad3n/gorfc/internal/sdktest"
+	"github.com/ad3n/gorfc/internal/ucs2"
 )
 
 var hardStrings = []struct {

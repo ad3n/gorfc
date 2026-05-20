@@ -8,7 +8,7 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/cjordaoc/gorfc/internal/backend"
+	"github.com/ad3n/gorfc/internal/backend"
 )
 
 // TestMaxTraceLevel_RejectsAboveCap installs a process-global

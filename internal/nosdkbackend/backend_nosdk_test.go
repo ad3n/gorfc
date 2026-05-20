@@ -10,7 +10,7 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/cjordaoc/gorfc/internal/backend"
+	"github.com/ad3n/gorfc/internal/backend"
 )
 
 // TestNoSDK_AllOpsFailExplicitly asserts every Backend method on
